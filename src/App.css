@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .App {
   text-align: center;
 }
@@ -32,7 +36,16 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.has-background-success {
+  color: green;
+}
+
+.has-background-danger {
+  color: red;
 }
